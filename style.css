@@ -194,3 +194,71 @@ flex-basis: 20%;
 html{
     scroll-behavior:smooth;
 }
+.contact-details{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.left-details{
+    margin-top: 20px;
+}
+.left-details h1{
+    font-size: 2.5rem; 
+}
+.left-details p{
+    padding: 10px 0px;
+}
+.left-details p i{
+    color: #ff000f;
+    margin-right: 15px;
+    font-size: 22px;
+}
+.icons{
+    margin: 20px 0px;
+}
+.icons i{
+    font-size: 25px;
+    color: #aaa;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.icons i:hover{
+    transform: translateY(-10px);
+    color: #ff000f;
+}
+.right-details form{
+    width: 80%;
+}
+form input, textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+ .btn2{
+    padding: 14px 60px;
+    margin-top: 20px;
+    background: #ff000f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.footer{
+    height: 15vh;
+    width: 100%;
+    background: #262626;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+}
